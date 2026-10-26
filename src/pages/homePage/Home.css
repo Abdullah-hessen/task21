@@ -1,4 +1,4 @@
-header.home .hero {
+.home .hero {
   background: linear-gradient(to right, #4248bd, #2b6cd4);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -6,22 +6,19 @@ header.home .hero {
   justify-content: space-between;
 }
 
-header.home .hero .content {
-  width: 502px;
-}
-
-header.home .hero .content p.dont-miss {
+.home .hero .content p.dont-miss {
   font-size: 20px;
   font-weight: 600;
   color: rgb(251, 133, 22);
   margin-top: 60px;
 }
 
-header.home .hero .content p.dont-miss span {
+.home .hero .content p.dont-miss span {
   color: white;
 }
 
-header.home .hero .content h1 {
+.home .hero .content h1 {
+  width: 450px;
   font-size: 65px;
   font-weight: 600;
   color: white;
@@ -29,44 +26,344 @@ header.home .hero .content h1 {
   margin: 20px 0 80px 0;
 }
 
-header.home .hero .content .getStarted {
+.home .hero .content .getStarted {
   display: flex;
   align-items: center;
-  gap: 45px;
 }
 
-header.home .hero .content .getStarted button {
+.home .hero .content .getStarted button {
   color: white;
   font-size: 17px;
   font-weight: 500;
   background-color: rgb(251, 133, 22);
-  padding: 15px 34px;
+  padding: 12px 34px;
+  margin-right: 45px;
   border-radius: 7px;
   border: none;
   cursor: pointer;
 }
 
-header.home .hero .content .getStarted button:hover {
+.home .hero .content .getStarted button:hover {
   background-color: white;
   color: rgb(66, 72, 189);
 }
 
-header.home .hero .content .getStarted p {
-  font-size: 20px;
-  font-weight: 600;
+.home .hero .content .getStarted p {
+  font-size: 18px;
+  font-weight: 500;
   color: rgb(251, 133, 22);
   width: 200px;
   line-height: 32.4px;
 }
 
-header.home .hero .content .getStarted p span {
+.home .hero .content .getStarted p span {
   color: white;
 }
 
-header.home .hero .image {
+.home .hero .image {
   width: 608px;
 }
 
-header.home .hero .image img {
+.home .hero .image img {
   width: 100%;
+}
+
+/* hosting plans section */
+.hostingPlan {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 80px;
+}
+
+.hostingPlan h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.hostingPlan .plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
+
+/* Whoweare section */
+.whoWeAre {
+  background: linear-gradient(to bottom, #4248bd, #2b6cd4);
+  display: flex;
+}
+
+.whoWeAre .left {
+  width: calc(100% / 2);
+  background-color: rgb(251, 133, 22);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whoWeAre .left h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.whoWeAre .left p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  color: white;
+  width: 820px;
+  margin: 30px 0 20px;
+}
+
+.whoWeAre .left button {
+  padding: 12px 34px;
+  background-color: white;
+  border-radius: 7px;
+  color: rgb(17, 17, 17);
+  border: 2px white solid;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+}
+.whoWeAre .left button:hover {
+  color: white;
+  background-color: rgb(251, 133, 22);
+}
+
+.whoWeAre .right {
+  width: calc(100% / 2);
+  text-align: center;
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whoWeAre .right h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.whoWeAre .right p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  color: white;
+  width: 820px;
+  margin: 30px 0 20px;
+}
+
+.whoWeAre .right button {
+  padding: 12px 34px;
+  background-color: white;
+  border-radius: 7px;
+  color: rgb(17, 17, 17);
+  border: 2px white solid;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+}
+.whoWeAre .right button:hover {
+  color: white;
+  background-color: rgb(66, 72, 189);
+}
+
+/* Support section */
+.support {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 100px;
+}
+
+.support .image {
+  width: 400px;
+}
+
+.support .image img {
+  width: 100%;
+}
+
+.support .content {
+  width: 471px;
+}
+
+.support .content h2 {
+  margin-top: 80px;
+  font-size: 48px;
+  font-weight: 600;
+  color: rgb(17, 17, 17);
+}
+
+.support .content p {
+  font-size: 18px;
+  color: rgb(17, 17, 17);
+  line-height: 32.4px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.support .content button {
+  padding: 12px 34px;
+  background-color: rgb(251, 133, 22);
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.support .content button:hover {
+  background-color: rgb(66, 72, 189);
+}
+
+/* laptop view */
+@media (max-width: 1439px) {
+  .home .hero .content p.dont-miss {
+    margin-top: 30px;
+  }
+  .home .hero .content h1 {
+    font-size: 60px;
+    width: 408px;
+  }
+
+  .whoWeAre .left p {
+    width: 460px;
+  }
+
+  .whoWeAre .right p {
+    width: 460px;
+  }
+
+  .support .image {
+    width: 425px;
+  }
+}
+
+/* tablet view */
+@media (max-width: 991px) {
+  .home .hero {
+    display: block;
+  }
+
+  .home .hero .content h1 {
+    width: 100%;
+  }
+
+  .home .hero .content .getStarted button {
+    margin-right: 155px;
+  }
+
+  .home .hero .image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .hostingPlan .plans {
+    flex-wrap: wrap;
+  }
+  .whoWeAre .left p {
+    width: 350px;
+  }
+
+  .whoWeAre .right p {
+    width: 350px;
+  }
+
+  .support {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: block;
+  }
+
+  .support .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .support .image img {
+    width: 550px;
+  }
+}
+
+/* phone view */
+@media (max-width: 767px) {
+  .home .hero .content h1 {
+    font-size: 36px;
+  }
+
+  .home .hero .content .getStarted {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .home .hero .content .getStarted button {
+    margin-right: 0;
+    margin-bottom: 66px;
+  }
+
+  .home .hero .content .getStarted p {
+    font-size: 16px;
+    width: 180px;
+  }
+
+  .hostingPlan h2 {
+    font-size: 30px;
+  }
+
+  .whoWeAre {
+    flex-wrap: wrap;
+  }
+
+  .whoWeAre .left {
+    width: 100%;
+    padding: 80px 0;
+  }
+
+  .whoWeAre .left h2 {
+    font-size: 30px;
+  }
+
+  .whoWeAre .right {
+    width: 100%;
+    padding: 80px 0;
+  }
+
+  .whoWeAre .right h2 {
+    font-size: 30px;
+  }
+
+  .support .content {
+    width: 320px;
+  }
+
+  .support .content h2 {
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .support .content p {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+
+  .support .image img {
+    width: 320px;
+  }
 }

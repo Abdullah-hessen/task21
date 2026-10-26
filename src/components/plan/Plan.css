@@ -1,0 +1,45 @@
+.planCard {
+  width: 221.5px;
+  text-align: center;
+}
+
+.planCard img {
+  width: 88px;
+  height: 88px;
+}
+
+.planCard h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  margin: 30px 0 20px;
+}
+
+.planCard .rightArrow {
+  font-size: 40px;
+  color: rgb(251, 133, 22);
+  margin-top: 20px;
+}
+
+/* laptop view */
+@media (max-width: 1439px) {
+}
+
+/* tablet view */
+@media (max-width: 991px) {
+  .planCard {
+    width: calc((100% - 85px) / 2);
+  }
+}
+
+/* phone view */
+@media (max-width: 767px) {
+  .planCard {
+    width: 100%;
+  }
+
+  .planCard h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
