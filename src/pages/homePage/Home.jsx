@@ -8,9 +8,6 @@ export default function Home() {
       <Navbar />
       <div className="hero container">
         <div className="content">
-          <div
-            style={{ backgroundColor: "red", border: "5px solid yellow" }}
-          ></div>
           <p className="dont-miss">
             <span>🔥Don't miss limited-time savings:</span> Savings 20%
           </p>
