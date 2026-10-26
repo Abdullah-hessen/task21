@@ -1,0 +1,72 @@
+header.home .hero {
+  background: linear-gradient(to right, #4248bd, #2b6cd4);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header.home .hero .content {
+  width: 502px;
+}
+
+header.home .hero .content p.dont-miss {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(251, 133, 22);
+  margin-top: 60px;
+}
+
+header.home .hero .content p.dont-miss span {
+  color: white;
+}
+
+header.home .hero .content h1 {
+  font-size: 65px;
+  font-weight: 600;
+  color: white;
+  line-height: 71.5px;
+  margin: 20px 0 80px 0;
+}
+
+header.home .hero .content .getStarted {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+header.home .hero .content .getStarted button {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: rgb(251, 133, 22);
+  padding: 15px 34px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+header.home .hero .content .getStarted button:hover {
+  background-color: white;
+  color: rgb(66, 72, 189);
+}
+
+header.home .hero .content .getStarted p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(251, 133, 22);
+  width: 200px;
+  line-height: 32.4px;
+}
+
+header.home .hero .content .getStarted p span {
+  color: white;
+}
+
+header.home .hero .image {
+  width: 608px;
+}
+
+header.home .hero .image img {
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+nav div.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+nav div.container .logo {
+  width: 195px;
+}
+
+nav div.container .logo img {
+  width: 100%;
+}
+
+nav div.container ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav div.container ul li a {
+  color: rgb(26, 26, 26);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+nav div.container ul li a:hover {
+  border-bottom: 2px solid rgb(251, 133, 22);
+}
+
+nav div.container .barsIcon {
+  width: 34px;
+  height: 31px;
+  display: none;
+}
+
+/* laptop view */
+@media (max-width: 1439px) {
+}
+
+/* tablet view */
+@media (max-width: 991px) {
+  nav div.container .barsIcon {
+    display: block;
+  }
+
+  nav div.container ul {
+    display: none;
+  }
+}
+
+/* phone view */
+@media (max-width: 767px) {
+}
